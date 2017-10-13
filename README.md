@@ -1,0 +1,1 @@
+"At 11:00 I had just begun the project. Copied the VirtualPet class from previous project, ignored the git, built the gradle, and synced with githubs cloud (am I saying that correctly(?)"

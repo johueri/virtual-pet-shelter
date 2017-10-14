@@ -28,4 +28,10 @@ public class VirtualPetShelter {
 			currentPet.tick(); // In the app, you will need .get(tick). I think. Ugh. 
 }
 		}
+		public void feedAll () { 
+		}
+		public void waterAll () {
 }
+		public void playWithOne() {
+		}
+		}

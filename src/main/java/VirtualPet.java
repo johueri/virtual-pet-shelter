@@ -10,7 +10,9 @@ public class VirtualPet {
 	private String description;
 
 	// Constructor
-	public VirtualPet(int hunger, int boredom, int affection, int bathroom, int thirst) {
+	public VirtualPet(String name, String description, int hunger, int boredom, int affection, int bathroom, int thirst) {
+		this.name = name;
+		this.description = description;
 		this.hunger = hunger;
 		this.boredom = boredom;
 		this.affection = affection;
@@ -60,7 +62,7 @@ public class VirtualPet {
 	}
 	
 	public String getDescription() {
-		return name;
+		return description;
 	}
 
 	// Method of Behavior

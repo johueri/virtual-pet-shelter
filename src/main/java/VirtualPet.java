@@ -66,24 +66,29 @@ public class VirtualPet {
 	}
 
 	// Method of Behavior
-	public void feedPet(int food) {
+	public void feedPet() {
+		int food = 10;
 		hunger -= food;
 		thirst += (food / 2);
 	}
 
-	public void playPet(int play) {
+	public void playPet() {
+		int play = 10;
 		boredom -= play;
 	}
 
-	public void rubPet(int rub) {
+	public void rubPet() {
+		int rub = 10;
 		affection -= rub;
 	}
 
-	public void letOut(int poop) {
+	public void letOut() {
+		int poop = 10;
 		bathroom -= poop;
 	}
 
-	public void giveWater(int water) {
+	public void giveWater() {
+		int water = 10;
 		thirst -= water;
 		bathroom += (water / 3);
 	}
